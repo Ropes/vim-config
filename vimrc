@@ -98,10 +98,12 @@ au FileType go nmap <leader>c <Plug>(go-coverage)
 au FileType go nmap <Leader>i <Plug>(go-info)
 
 
-let g:UltiSnipsExpandTrigger="`"
+let g:UltiSnipsExpandTrigger="<Leader>`"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
+
+map <Leader>s <Plug>(easymotion-prefix)
 
 
 colorscheme Tomorrow-Night-Bright
