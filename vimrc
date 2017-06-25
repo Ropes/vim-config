@@ -18,6 +18,9 @@ set ruler
 " Use Absolute numbers in insert mode
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
+" Ugly hack to set relative numbers and have cursor line be continguous number
+set relativenumber
+set number
 set relativenumber
 
 set ignorecase
@@ -106,3 +109,4 @@ let g:UltiSnipsEditSplit="vertical"
 colorscheme Tomorrow-Night-Bright
 "colorscheme molokai
 "colorscheme ironman
+"colorscheme Tomorrow
